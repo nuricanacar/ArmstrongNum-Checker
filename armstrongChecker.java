@@ -13,7 +13,7 @@ public class armstrongChecker {
             on = num % 100;
             on = on / 10;
             bir = num - ((yuz*100) + (on*10));
-                if (num / 1000 >= 1 || num / 100 <= 1)
+                if (num / 1000 >= 1 || num / 100 < 1)
                 {
                     JOptionPane.showMessageDialog(null,"Girdiginiz sayi 3 basamakli degil !","Armstrong Sayi mi?",JOptionPane.ERROR_MESSAGE);
                 }
